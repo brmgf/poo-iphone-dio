@@ -1,5 +1,5 @@
 # Desafio de Programação Orientada a Objetos
-Criação do desafio de código "Programação Orientada a Objetos" da [DIO](https://www.dio.me/).
+Criação do desafio de código "Modelando o iPhone com UML: Funções de Músicas, Chamadas e Internet" da [DIO](https://www.dio.me/).
 
 ## Desafio
 Foi proposto o desenvolvimento do diagrama de classe e implementação de um código java baseado no primeiro iPhone, conforme [apresentação oficial](https://www.youtube.com/watch?v=9ou608QQRq8).
