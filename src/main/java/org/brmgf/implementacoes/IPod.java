@@ -16,6 +16,6 @@ public class IPod implements ReprodutorMusical {
 
     @Override
     public void selecionarMusica(String musica) {
-        System.out.println("Selecionado " + musica + " para reproduzir em iPod");
+        System.out.println("Selecionado \"" + musica + "\" para reproduzir em iPod");
     }
 }

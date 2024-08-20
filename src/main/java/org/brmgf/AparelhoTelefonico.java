@@ -1,7 +1,5 @@
 package org.brmgf;
 
-import org.brmgf.implementacoes.IPod;
-import org.brmgf.implementacoes.Safari;
 import org.brmgf.interfaces.NavegadorInternet;
 import org.brmgf.interfaces.ReprodutorMusical;
 
@@ -10,9 +8,9 @@ public class AparelhoTelefonico {
     private NavegadorInternet navegadorInternet;
     private ReprodutorMusical reprodutorMusical;
 
-    public AparelhoTelefonico() {
-        this.navegadorInternet = new Safari();
-        this.reprodutorMusical = new IPod();
+    public AparelhoTelefonico(NavegadorInternet navegadorInternet, ReprodutorMusical reprodutorMusical) {
+        this.navegadorInternet = navegadorInternet;
+        this.reprodutorMusical = reprodutorMusical;
     }
 
     public void ligar(String numero) {
